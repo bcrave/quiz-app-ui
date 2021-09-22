@@ -34,24 +34,47 @@
           Which of the following is true about Shopify developers?
         </h4>
       </header>
-      <section class="answers active" id="answers1">
-        <label>
-          <input type="radio" name="answer_option" value="Shopify" />
-          Shopify
-        </label>
-        <label>
-          <input type="radio" name="answer_option" value="WooCommerce" />
-          WooCommerce
-        </label>
-        <label class="correct">
-          <input type="radio" name="answer_option" value="ShopCommerce" />
-          ShopCommerce
-        </label>
-        <label>
-          <input type="radio" name="answer_option" value="BigCommerce" />
-          BigCommerce
-        </label>
-      </section>
+      <!-- <form action="/index.js"> -->
+      <form>
+        <section class="answers active" id="answers1">
+          <label>
+            <input
+              type="radio"
+              name="answer_option"
+              id="shopify"
+              value="Shopify"
+            />
+            Shopify
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="answer_option"
+              id="woo_commerce"
+              value="WooCommerce"
+            />
+            WooCommerce
+          </label>
+          <label class="correct">
+            <input
+              type="radio"
+              name="answer_option"
+              id="shop_commerce"
+              value="ShopCommerce"
+            />
+            ShopCommerce
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="answer_option"
+              id="big_commerce"
+              value="BigCommerce"
+            />
+            BigCommerce
+          </label>
+        </section>
+      </form>
       <section class="answers" id="answers2">
         <label>
           <input
@@ -116,11 +139,12 @@
         </label>
       </section>
       <footer>
-        <button>
+        <button type="submit">
           Next
           <i class="fas fa-angle-right"></i>
         </button>
       </footer>
+      <!-- </form> -->
     </div>
   </body>
   <script type="text/javascript" src="index.js"></script>
