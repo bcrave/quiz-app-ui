@@ -41,7 +41,7 @@ h4 {
 }
 
 .answers label {
-  padding: 10px 10px;
+  padding: 10px 0;
   background-color: #f1f1f1;
   margin-bottom: 2px;
   animation: lighten 500ms;
@@ -55,8 +55,7 @@ h4 {
 }
 /* Button */
 button {
-  width: 80px;
-  padding: 10px 30px;
+  padding: 10px 20px;
   border: none;
   outline: none;
   background-color: #4caf50;
@@ -64,7 +63,6 @@ button {
 
   display: flex;
   align-items: center;
-  justify-content: center;
   cursor: pointer;
 }
 
@@ -74,12 +72,6 @@ button i {
 
 button:active {
   transform: scale(0.98);
-}
-
-footer {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
 }
 
 /* Keyframes */
