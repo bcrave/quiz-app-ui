@@ -1,5 +1,4 @@
 let counter = 0;
-
 const questionCounters = document.querySelectorAll(".question-counter");
 const questions = document.querySelectorAll(".question");
 const answersGroups = document.querySelectorAll(".answers");
