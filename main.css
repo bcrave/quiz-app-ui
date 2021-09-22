@@ -41,7 +41,7 @@ h4 {
 }
 
 .answers label {
-  padding: 10px 0;
+  padding: 10px 10px;
   background-color: #f1f1f1;
   margin-bottom: 2px;
   animation: lighten 500ms;
