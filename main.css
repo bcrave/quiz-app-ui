@@ -1,3 +1,4 @@
+/* Layout */
 body {
   font-family: "Courier New", Courier, monospace;
   margin: 0;
@@ -11,8 +12,29 @@ h4 {
 .container {
   padding: 30px 50px;
 }
+/* Questions */
+.question-counter {
+  display: none;
+}
 
+.question-counter.active {
+  display: block;
+}
+
+.question {
+  display: none;
+}
+
+.question.active {
+  display: block;
+}
+
+/* Answers */
 .answers {
+  display: none;
+}
+
+.answers.active {
   display: flex;
   flex-direction: column;
   margin: 30px 0;
@@ -31,7 +53,7 @@ h4 {
   background-color: lightgrey;
   animation: darken 500ms;
 }
-
+/* Button */
 button {
   padding: 10px 20px;
   border: none;
@@ -52,6 +74,7 @@ button:active {
   transform: scale(0.98);
 }
 
+/* Keyframes */
 @keyframes darken {
   from {
     background-color: #f1f1f1;

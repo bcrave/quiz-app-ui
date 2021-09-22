@@ -1,0 +1,18 @@
+{
+  "name": "quiz-app-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-brennycode:bcrave/quiz-app-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^17.0.0"
+  }
+}
