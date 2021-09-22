@@ -1,1 +1,71 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h3,
+h4 {
+  margin-top: 0;
+}
+.container {
+  padding: 30px 50px;
+}
 
+.answers {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.answers label {
+  padding: 10px 0;
+  background-color: #f1f1f1;
+  margin-bottom: 2px;
+  animation: lighten 500ms;
+
+  cursor: pointer;
+}
+
+.answers label:hover {
+  background-color: lightgrey;
+  animation: darken 500ms;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: #4caf50;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+button i {
+  margin-left: 10px;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+@keyframes darken {
+  from {
+    background-color: #f1f1f1;
+  }
+  to {
+    background-color: lightgrey;
+  }
+}
+
+@keyframes lighten {
+  from {
+    background-color: lightgrey;
+  }
+  to {
+    background-color: #f1f1f1;
+  }
+}

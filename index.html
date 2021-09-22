@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <script
       src="https://kit.fontawesome.com/ab975ea356.js"
       crossorigin="anonymous"
@@ -11,50 +12,52 @@
     <title>Freemote Quiz App</title>
   </head>
   <body>
-    <header>
-      <h1>Quiz App</h1>
-      <h3>Question 1 of 25:</h3>
-      <h4>What does CSS stand for?</h4>
-    </header>
-    <section>
-      <label>
-        <input
-          type="radio"
-          name="answer_option"
-          value="Cascading Style Sheets"
-        />
-        Cascading Style Sheets
-      </label>
-      <label>
-        <input
-          type="radio"
-          name="answer_option"
-          value="Computer Style Sheets"
-        />
-        Computer Style Sheets
-      </label>
-      <label>
-        <input
-          type="radio"
-          name="answer_option"
-          value="Colorful Style Sheets"
-        />
-        Colorful Style Sheets
-      </label>
-      <label>
-        <input
-          type="radio"
-          name="answer_option"
-          value="Creative Style Sheets"
-        />
-        Creative Style Sheets
-      </label>
-    </section>
-    <footer>
-      <button>
-        Next
-        <i class="fas fa-angle-right"></i>
-      </button>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Quiz App</h1>
+        <h3>Question 1 of 25:</h3>
+        <h4>What does CSS stand for?</h4>
+      </header>
+      <section class="answers">
+        <label>
+          <input
+            type="radio"
+            name="answer_option"
+            value="Cascading Style Sheets"
+          />
+          Cascading Style Sheets
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="answer_option"
+            value="Computer Style Sheets"
+          />
+          Computer Style Sheets
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="answer_option"
+            value="Colorful Style Sheets"
+          />
+          Colorful Style Sheets
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="answer_option"
+            value="Creative Style Sheets"
+          />
+          Creative Style Sheets
+        </label>
+      </section>
+      <footer>
+        <button>
+          Next
+          <i class="fas fa-angle-right"></i>
+        </button>
+      </footer>
+    </div>
   </body>
 </html>
