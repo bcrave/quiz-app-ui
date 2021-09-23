@@ -74,6 +74,10 @@ button:active {
   transform: scale(0.98);
 }
 
+.hide {
+  display: none;
+}
+
 /* Keyframes */
 @keyframes darken {
   from {

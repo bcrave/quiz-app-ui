@@ -3,6 +3,7 @@
 });
 
 let counter = 0;
+
 // Question Counters
 const questionCounters = document.querySelectorAll(".question-counter");
 // Questions
@@ -22,12 +23,17 @@ const changeActiveElement = () => {
 };
 
 // Submit Handler
-const button = document.querySelector("button");
-button.addEventListener("click", (e) => {
-  e.preventDefault();
-  console.log(e.target.value);
+const nextButton = document.querySelector(".next");
+const submitButton = document.querySelector("button[type=submit]");
 
-  if (counter >= 2) return;
+nextButton.addEventListener("click", () => {
   counter++;
+  console.log(counter);
   changeActiveElement();
+
+  if (counter === questions.length - 1) {
+    nextButton.classList.add("hide");
+    submitButton.classList.remove("hide");
+    return;
+  }
 });
