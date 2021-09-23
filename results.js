@@ -1,7 +1,3 @@
-({
-  plugins: ["jsdom-quokka-plugin"],
-});
-
 const answers = ["ShopCommerce", "All the above", "All the above"];
 const userAnswers = [];
 const totalAnswers = answers.length;

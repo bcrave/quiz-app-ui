@@ -77,8 +77,22 @@ button {
   cursor: pointer;
 }
 
-button i {
+.submit-button {
+  position: relative;
+}
+
+.submit-button button {
+  margin-right: 0;
+  position: absolute;
+  right: 0;
+}
+
+button i.fa-angle-right {
   margin-left: 10px;
+}
+
+button i.fa-angle-left {
+  margin-right: 10px;
 }
 
 button:active {
