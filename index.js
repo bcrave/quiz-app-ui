@@ -11,7 +11,7 @@ const questions = document.querySelectorAll(".question");
 // Answers
 const answersGroups = document.querySelectorAll(".answers");
 
-const changeActiveElement = () => {
+const changeActiveElements = () => {
   // remove active classes
   questionCounters.forEach((question) => question.classList.remove("active"));
   questions.forEach((question) => question.classList.remove("active"));
@@ -22,14 +22,15 @@ const changeActiveElement = () => {
   answersGroups[counter].classList.add("active");
 };
 
-// Submit Handler
-const nextButton = document.querySelector(".next");
+// Buttons
 const submitButton = document.querySelector("button[type=submit]");
+const nextButton = document.querySelector(".next");
+const backButton = document.querySelector(".back");
 
+// Get next question
 nextButton.addEventListener("click", () => {
   counter++;
-  console.log(counter);
-  changeActiveElement();
+  changeActiveElements();
 
   if (counter === questions.length - 1) {
     nextButton.classList.add("hide");

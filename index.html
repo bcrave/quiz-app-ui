@@ -34,50 +34,31 @@
           Which of the following is true about Shopify developers?
         </h4>
       </header>
-      <form action="results.html">
-        <section class="answers active" id="answers1">
+
+      <form action="results.html" id="form" method="GET">
+        <fieldset class="answers active" id="answers1">
           <label>
-            <input
-              type="radio"
-              name="answer_option"
-              id="shopify"
-              value="Shopify"
-            />
+            <input type="radio" name="answers1" value="Shopify" />
             Shopify
           </label>
           <label>
-            <input
-              type="radio"
-              name="answer_option"
-              id="woo_commerce"
-              value="WooCommerce"
-            />
+            <input type="radio" name="answers1" value="WooCommerce" />
             WooCommerce
           </label>
           <label class="correct">
-            <input
-              type="radio"
-              name="answer_option"
-              id="shop_commerce"
-              value="ShopCommerce"
-            />
+            <input type="radio" name="answers1" value="ShopCommerce" />
             ShopCommerce
           </label>
           <label>
-            <input
-              type="radio"
-              name="answer_option"
-              id="big_commerce"
-              value="BigCommerce"
-            />
+            <input type="radio" name="answers1" value="BigCommerce" />
             BigCommerce
           </label>
-        </section>
-        <section class="answers" id="answers2">
+        </fieldset>
+        <fieldset class="answers" id="answers2">
           <label>
             <input
               type="radio"
-              name="answer_option"
+              name="answers2"
               value="To save time on things like store setups and migrations"
             />
             To save time on things like store setups and migrations
@@ -85,7 +66,7 @@
           <label>
             <input
               type="radio"
-              name="answer_option"
+              name="answers2"
               value="To extend the limited design options and functionalities of themes with custom code"
             />
             To extend the limited design options and functionalities of themes
@@ -94,22 +75,22 @@
           <label>
             <input
               type="radio"
-              name="answer_option"
+              name="answers2"
               value="To provide support with a deep understanding of how the platform works and what its limitations are"
             />
             To provide support with a deep understanding of how the platform
             works and what its limitations are
           </label>
           <label class="correct">
-            <input type="radio" name="answer_option" value="All the above" />
+            <input type="radio" name="answers2" value="All the above" />
             All the above
           </label>
-        </section>
-        <section class="answers" id="answers3">
+        </fieldset>
+        <fieldset class="answers" id="answers3">
           <label>
             <input
               type="radio"
-              name="answer_option"
+              name="answers3"
               value="They are paid extremely well"
             />
             They are paid extremely well
@@ -117,7 +98,7 @@
           <label>
             <input
               type="radio"
-              name="answer_option"
+              name="answers3"
               value="There is a high demand for them"
             />
             There is a high demand for them
@@ -125,19 +106,20 @@
           <label>
             <input
               type="radio"
-              name="answer_option"
+              name="answers3"
               value="They need to know web development, the platform itself, and the liquid template language"
             />
             They need to know web development, the platform itself, and the
             liquid template language
           </label>
           <label class="correct">
-            <input type="radio" name="answer_option" value="All the above" />
+            <input type="radio" name="answers3" value="All the above" />
             All the above
           </label>
-        </section>
+        </fieldset>
         <button type="submit" class="hide">Submit</button>
       </form>
+
       <footer>
         <button class="next">
           Next
@@ -146,5 +128,6 @@
       </footer>
     </div>
   </body>
+
   <script type="text/javascript" src="index.js"></script>
 </html>

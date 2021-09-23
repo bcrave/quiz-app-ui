@@ -30,6 +30,11 @@ h4 {
 }
 
 /* Answers */
+fieldset {
+  border: none;
+  padding: 0;
+}
+
 .answers {
   display: none;
 }
@@ -53,9 +58,15 @@ h4 {
   background-color: lightgrey;
   animation: darken 500ms;
 }
+
+footer {
+  display: flex;
+}
+
 /* Button */
 button {
   padding: 10px 20px;
+  margin-right: 20px;
   border: none;
   outline: none;
   background-color: #4caf50;
