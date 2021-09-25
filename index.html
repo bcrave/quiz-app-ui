@@ -34,94 +34,106 @@
           Which of the following is true about Shopify developers?
         </h4>
       </header>
-      <section class="answers active" id="answers1">
-        <label>
-          <input type="radio" name="answer_option" value="Shopify" />
-          Shopify
-        </label>
-        <label>
-          <input type="radio" name="answer_option" value="WooCommerce" />
-          WooCommerce
-        </label>
-        <label class="correct">
-          <input type="radio" name="answer_option" value="ShopCommerce" />
-          ShopCommerce
-        </label>
-        <label>
-          <input type="radio" name="answer_option" value="BigCommerce" />
-          BigCommerce
-        </label>
-      </section>
-      <section class="answers" id="answers2">
-        <label>
-          <input
-            type="radio"
-            name="answer_option"
-            value="To save time on things like store setups and migrations"
-          />
-          To save time on things like store setups and migrations
-        </label>
-        <label>
-          <input
-            type="radio"
-            name="answer_option"
-            value="To extend the limited design options and functionalities of themes with custom code"
-          />
-          To extend the limited design options and functionalities of themes
-          with custom code
-        </label>
-        <label>
-          <input
-            type="radio"
-            name="answer_option"
-            value="To provide support with a deep understanding of how the platform works and what its limitations are"
-          />
-          To provide support with a deep understanding of how the platform works
-          and what its limitations are
-        </label>
-        <label class="correct">
-          <input type="radio" name="answer_option" value="All the above" />
-          All the above
-        </label>
-      </section>
-      <section class="answers" id="answers3">
-        <label>
-          <input
-            type="radio"
-            name="answer_option"
-            value="They are paid extremely well"
-          />
-          They are paid extremely well
-        </label>
-        <label>
-          <input
-            type="radio"
-            name="answer_option"
-            value="There is a high demand for them"
-          />
-          There is a high demand for them
-        </label>
-        <label>
-          <input
-            type="radio"
-            name="answer_option"
-            value="They need to know web development, the platform itself, and the liquid template language"
-          />
-          They need to know web development, the platform itself, and the liquid
-          template language
-        </label>
-        <label class="correct">
-          <input type="radio" name="answer_option" value="All the above" />
-          All the above
-        </label>
-      </section>
+
+      <form action="results.html" id="form" method="GET">
+        <fieldset class="answers active" id="answers1">
+          <label>
+            <input type="radio" name="answers1" value="Shopify" />
+            Shopify
+          </label>
+          <label>
+            <input type="radio" name="answers1" value="WooCommerce" />
+            WooCommerce
+          </label>
+          <label class="correct">
+            <input type="radio" name="answers1" value="ShopCommerce" />
+            ShopCommerce
+          </label>
+          <label>
+            <input type="radio" name="answers1" value="BigCommerce" />
+            BigCommerce
+          </label>
+        </fieldset>
+        <fieldset class="answers" id="answers2">
+          <label>
+            <input
+              type="radio"
+              name="answers2"
+              value="To save time on things like store setups and migrations"
+            />
+            To save time on things like store setups and migrations
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="answers2"
+              value="To extend the limited design options and functionalities of themes with custom code"
+            />
+            To extend the limited design options and functionalities of themes
+            with custom code
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="answers2"
+              value="To provide support with a deep understanding of how the platform works and what its limitations are"
+            />
+            To provide support with a deep understanding of how the platform
+            works and what its limitations are
+          </label>
+          <label class="correct">
+            <input type="radio" name="answers2" value="All the above" />
+            All the above
+          </label>
+        </fieldset>
+        <fieldset class="answers" id="answers3">
+          <label>
+            <input
+              type="radio"
+              name="answers3"
+              value="They are paid extremely well"
+            />
+            They are paid extremely well
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="answers3"
+              value="There is a high demand for them"
+            />
+            There is a high demand for them
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="answers3"
+              value="They need to know web development, the platform itself, and the liquid template language"
+            />
+            They need to know web development, the platform itself, and the
+            liquid template language
+          </label>
+          <label class="correct">
+            <input type="radio" name="answers3" value="All the above" />
+            All the above
+          </label>
+        </fieldset>
+        <div class="submit-button">
+          <button type="submit" class="hide">Submit</button>
+        </div>
+      </form>
+
       <footer>
-        <button>
+        <button class="back hide">
+          <i class="fas fa-angle-left"></i>
+          Back
+        </button>
+        <button class="next">
           Next
           <i class="fas fa-angle-right"></i>
         </button>
       </footer>
     </div>
   </body>
+
   <script type="text/javascript" src="index.js"></script>
 </html>

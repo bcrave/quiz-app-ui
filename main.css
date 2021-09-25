@@ -30,6 +30,11 @@ h4 {
 }
 
 /* Answers */
+fieldset {
+  border: none;
+  padding: 0;
+}
+
 .answers {
   display: none;
 }
@@ -53,9 +58,15 @@ h4 {
   background-color: lightgrey;
   animation: darken 500ms;
 }
+
+footer {
+  display: flex;
+}
+
 /* Button */
 button {
   padding: 10px 20px;
+  margin-right: 20px;
   border: none;
   outline: none;
   background-color: #4caf50;
@@ -66,12 +77,30 @@ button {
   cursor: pointer;
 }
 
-button i {
+.submit-button {
+  position: relative;
+}
+
+.submit-button button {
+  margin-right: 0;
+  position: absolute;
+  right: 0;
+}
+
+button i.fa-angle-right {
   margin-left: 10px;
+}
+
+button i.fa-angle-left {
+  margin-right: 10px;
 }
 
 button:active {
   transform: scale(0.98);
+}
+
+.hide {
+  display: none;
 }
 
 /* Keyframes */
